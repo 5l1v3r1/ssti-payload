@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://github.com/mez0cc/ssti-payload"><img src="https://i.imgur.com/hoi1frW.jpg" alt="shells"></a>
+  <a href="https://github.com/mez0cc/ssti-payload"><img src="https://i.imgur.com/hoi1frW.jpg" height=150px alt="shells"></a>
   <br>
   SSTI Payload Generator
   <br>
